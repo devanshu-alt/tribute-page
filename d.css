@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0072ff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.image-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-section img {
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.about, .life, .quote {
+  margin: 20px 0;
+}
+
+.about h2, .life h2, .quote h2 {
+  color: #0072ff;
+  margin-bottom: 10px;
+}
+
+.life ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  background: #f0f8ff;
+  padding: 15px;
+  border-left: 5px solid #0072ff;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #666;
+}
